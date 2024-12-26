@@ -1,0 +1,15 @@
+[configuration]
+entry_symbol = "basic_plugin"
+compatibility_minimum = 4.2
+
+[libraries]
+macos.debug = "res://addons/BasicPlugin/macos/libBasicPlugin.dylib"
+macos.release = "res://addons/BasicPlugin/macos/libBasicPlugin.dylib"
+ios.debug = "res://addons/BasicPlugin/ios/BasicPlugin.framework"
+ios.release = "res://addons/BasicPlugin/ios/BasicPlugin.framework"
+
+[dependencies]
+macos.debug = {"res://addons/BasicPlugin/macos/libSwiftGodot.dylib" : ""}
+macos.release = {"res://addons/BasicPlugin/macos/libSwiftGodot.dylib" : ""}
+ios.debug = {"res://addons/BasicPlugin/ios/SwiftGodot.framework" : ""}
+ios.release = {"res://addons/BasicPlugin/ios/SwiftGodot.framework" : ""}

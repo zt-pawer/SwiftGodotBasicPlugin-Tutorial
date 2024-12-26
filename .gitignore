@@ -68,3 +68,9 @@ DerivedData/
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
 .netrc
 
+# Godot
+Godot/.godot
+Godot/export_presets.cfg
+Export/
+Godot/addons/BasicPlugin/ios
+Godot/addons/BasicPlugin/macos
