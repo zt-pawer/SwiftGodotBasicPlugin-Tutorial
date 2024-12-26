@@ -64,9 +64,9 @@ fastlane/test_output
 # Additional ignore
 .DS_Store
 DerivedData/
-.swiftpm/configuration/registries.json
-.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
-.netrc
+Swift/.netrc
+Swift/.swiftpm
+Swift/Bin
 
 # Godot
 Godot/.godot
@@ -74,3 +74,9 @@ Godot/export_presets.cfg
 Export/
 Godot/addons/BasicPlugin/ios
 Godot/addons/BasicPlugin/macos
+
+# Local
+Local
+
+# Zig
+.zig-cache
